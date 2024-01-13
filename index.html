@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tâches à faire</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <h1>Tâches à faire</h1>    
+    <form onsubmit="onFormSubmit(event)">
+        <div style="margin-bottom: 100px;" class="row">
+            <div class="grid col-50">
+                <div class="grid-item">
+                    <label for="name">Nom de la tâche: <input type="text" size="40" required name="name" id="name" /></label>
+                </div>
+                <div class="grid-item">
+                    <input type="submit" name="add" id="add" value="Ajouter">
+                    <button type="button" name="clear" id="clear" onclick="clearLocalStorage()">Enlever le stockage local</button>
+                </div>
+            </div>
+        </div>
+        <div id="taskList" class="column"></div>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

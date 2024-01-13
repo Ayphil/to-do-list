@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(229, 229, 245);
+}
+
+h1{
+    margin-bottom: 40px;
+}
+h3, label, input{
+    display: inline;
+}
+label{
+    font-size:25px;
+}
+input[type="text"]{
+    height: 30px;
+}
+
+input[value]{
+    font-size:25px;
+}
+
+.grid{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap : 0px 0px;
+}
+
+button, input[type="submit"]{
+    background-color: rgb(70, 70, 94);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+}
+i {
+    color : red;
+}
+
+i:hover{
+    color : rgb(255, 176, 176);
+}
+
+i:active{
+    color : red;
+}
+
+.task{
+    position: relative;
+    text-align: left;
+    background-color: rgb(30, 30, 77);
+    border : 3px solid rgb(77, 77, 103);
+    color: white;
+    font-size: 28px;
+    padding: 20px 15px;
+    margin: 5px 0px;
+}
+.TextDiv{
+    width: 70%;
+}
+.TrashDiv{
+    text-align: right;
+    margin-top: -40px;
+    margin-right: 15px;
+}
+input[type="checkbox"]{
+    vertical-align:middle;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+
+.row{
+    padding : 0px 300px;
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    padding : 0px 300px;
+    display: flex;
+    flex-direction: column;
+}
+.col-50{
+    flex:50%;
+}

@@ -29,13 +29,23 @@ input[value]{
 }
 
 button, input[type="submit"]{
-    background-color: rgb(70, 70, 94);
+    background-color: rgb(30, 30, 77);
     color: white;
     font-size: 20px;
     padding: 10px;
     margin: 10px;
     display: inline;
 }
+
+button:hover, input[type="submit"]:hover{
+    background-color: rgb(186, 186, 255);
+    color: rgb(24, 24, 29);
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+}
+
 i {
     color : red;
 }

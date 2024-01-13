@@ -13,16 +13,16 @@
 
 <body>
 
-    <h1>Tâches à faire</h1>    
+    <h1>Tasks to do</h1>    
     <form onsubmit="onFormSubmit(event)">
         <div style="margin-bottom: 100px;" class="row">
             <div class="grid col-50">
                 <div class="grid-item">
-                    <label for="name">Nom de la tâche: <input type="text" size="40" required name="name" id="name" /></label>
+                    <label for="name">Task name: <input type="text" size="40" required name="name" id="name" /></label>
                 </div>
                 <div class="grid-item">
-                    <input type="submit" name="add" id="add" value="Ajouter">
-                    <button type="button" name="clear" id="clear" onclick="clearLocalStorage()">Enlever le stockage local</button>
+                    <input type="submit" name="add" id="add" value="Add">
+                    <button type="button" name="clear" id="clear" onclick="clearLocalStorage()">Delete all the tasks</button>
                 </div>
             </div>
         </div>
